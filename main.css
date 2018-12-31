@@ -1,0 +1,133 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: lightgoldenrodyellow;
+  padding-top: 10px;
+  line-height: 25px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto;
+  width: 400px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: auto;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid darkorange;
+  background-color: lightgoldenrodyellow;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a:hover {
+  background-color: #f5f5a4;
+  border-bottom: 1px solid #cc7000;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+p .subreddit {
+  text-transform: uppercase;
+}
+
+#post {
+  border-top: 1px solid darkorange;
+  padding-top: 15px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+#comments {
+  padding-left: 10px;
+}
+
+#comments .fas, #comments #date {
+  padding: 2px;
+}
+
+#date {
+  background-color: #eded5f;
+}
+
+/*
+div.javascript {
+  background-color: aquamarine;
+}
+
+div.learnjavascript {
+  background-color: honeydew;
+}
+
+div.FreeCodeCamp {
+  background-color: gainsboro;
+}
+
+div.vuejs {
+  background-color: floralwhite;
+}
+
+div.webpack {
+  background-color: coral;
+}
+
+div.node {
+  background-color: lightyellow;
+}
+
+div.learnprogramming {
+  background-color: lightblue;
+}
+
+div.Firebase {
+  background-color: lightcyan;
+} */

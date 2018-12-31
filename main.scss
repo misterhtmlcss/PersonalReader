@@ -1,0 +1,119 @@
+$darkorange: rgba(255,140,0, 1);
+$goldenrodyellow: rgba(250,250,210,1);
+$titlegrey: rgba(0,0,0, 0.7);
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: $goldenrodyellow;
+  padding-top: 10px;
+  line-height: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 400px;
+
+  & ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    & li {
+      flex-grow: 1;
+    }
+  }
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid darkorange;
+  background-color: $goldenrodyellow;
+  color: $titlegrey;
+
+  &:hover {
+    background-color: darken($goldenrodyellow, 10%);
+    border-bottom: 1px solid darken(darkorange, 10%);
+  }
+}
+
+p {
+  font-size: 1.1rem;
+
+  .subreddit {
+  text-transform: uppercase;
+  }
+}
+
+#post {
+  border-top: 1px solid darkorange;
+  padding-top: 15px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+  //border-bottom: 2px solid black;
+  //margin: 0;
+  //padding: 10px;
+}
+
+#comments {
+  padding-left: 10px;
+  .fas, #date {
+    padding: 2px;
+  }
+}
+
+#date {
+  background-color: darken($goldenrodyellow, 25%);
+}
+
+
+/*
+div.javascript {
+  background-color: aquamarine;
+}
+
+div.learnjavascript {
+  background-color: honeydew;
+}
+
+div.FreeCodeCamp {
+  background-color: gainsboro;
+}
+
+div.vuejs {
+  background-color: floralwhite;
+}
+
+div.webpack {
+  background-color: coral;
+}
+
+div.node {
+  background-color: lightyellow;
+}
+
+div.learnprogramming {
+  background-color: lightblue;
+}
+
+div.Firebase {
+  background-color: lightcyan;
+} */
